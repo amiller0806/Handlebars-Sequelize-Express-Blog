@@ -33,7 +33,7 @@ Post.init({
   post_date: {
     type: DataTypes.DATE,
     allowNull: false,
-    default: new Date,
+    defaultValue: DataTypes.NOW
 
   }
 }, {

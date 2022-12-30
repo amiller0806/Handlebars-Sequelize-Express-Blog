@@ -1,3 +1,6 @@
+
+// TODO: CAN THIS BE DELETED?
+
 async function upvoteClickHandler(event) {
   event.preventDefault();
 
