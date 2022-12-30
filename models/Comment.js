@@ -31,7 +31,14 @@ Comment.init(
         model: 'post',
         key: 'id'
       }
+    },
+
+    createDate: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: DataTypes.NOW
     }
+
   },
   {
     sequelize,
